@@ -22,6 +22,8 @@
 
 - 应用设置 → 图片 → 图片上传设置 → 命令，支持占位符 `${vault}`（它会被解析为当前笔记目录的根路径）
 
+- 支持 Jekyll 博客：从 `_config-dev.yml` 解析 `{{ site.image_base }}`。如果 `image_base` 以 `http://localhost.../` 开头，会被转换为相对于 `_config-dev.yml` 的本地路径。
+
 - 插入图片时，简化图片绝对路径为相对于 当前笔记目录的根目录 的相对路径
 
   > **Example**
