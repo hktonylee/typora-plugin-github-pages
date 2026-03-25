@@ -1,4 +1,4 @@
-# Typora Plugin Image Location
+# Typora Plugin for GitHub Pages
 
 [English](./README.md) | 简体中文
 
@@ -39,7 +39,7 @@
 ## 安装
 
 1. 安装 [typora-community-plugin][core]
-2. 在 “设置 -> 插件市场” 中搜索 “Image Location” 并安装
+2. 在 “设置 -> 插件市场” 中搜索 “Typora Plugin for GitHub Pages” 并安装
 
 
 
