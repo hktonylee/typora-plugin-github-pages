@@ -22,6 +22,8 @@ This a plugin based on [typora-community-plugin][core] for [Typora](https://typo
 
 - App Settings → Image → Image Upload Setting → Command, supports new placeholder `${vault}` (it will be replaced to the vault's root path)
 
+- Jekyll blog support: resolve `{{ site.image_base }}` from `_config-dev.yml`. If `image_base` starts with `http://localhost.../`, it will be converted to a local path relative to `_config-dev.yml`.
+
 - After an image is inserted, the image's absolute path will be simplified to relative path from vault root.
 
   > **Example**
