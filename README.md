@@ -1,12 +1,12 @@
-# Typora Plugin Image Location
+# Typora Plugin for GitHub Pages
 
 English | [简体中文](./README.zh-CN.md)
 
-This a plugin based on [typora-community-plugin][core] for [Typora](https://typora.io).
+This is a plugin based on [typora-community-plugin][core] for [Typora](https://typora.io), designed to make writing GitHub Pages posts easier. It was previously forked from [typora-plugin-image-location][upstream-image-location].
 
 ## Features
 
-- Resolve image's path relative to the vault's root.
+- Resolve image's path correctly relative to the vault's root.
 
   > **Example**
   >
@@ -39,8 +39,10 @@ This a plugin based on [typora-community-plugin][core] for [Typora](https://typo
 ## Install
 
 1. Install [typora-community-plugin][core]
-2. Open "Settings -> Plugin Marketplace" search "Image Location" then install it.
+2. Open "Settings -> Plugin Marketplace" search "Typora Plugin for GitHub Pages" then install it.
 
 
 
 [core]: https://github.com/typora-community-plugin/typora-community-plugin
+
+[upstream-image-location]: https://github.com/typora-community-plugin/typora-plugin-image-location

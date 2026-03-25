@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "typora-plugin-image-location",
+  "name": "typora-plugin-github-pages",
   "version": "",
-  "description": "",
+  "description": "Typora Plugin for GitHub Pages",
   "type": "module",
   "main": "",
   "scripts": {
@@ -11,7 +11,7 @@
     "pack": "pnpm run build && node pack.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "hktonylee",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.23.2",
